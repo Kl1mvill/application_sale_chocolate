@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity {
                 foo--;
 
                 if (foo >= 0) {
-                    text_quantity.setText(String.valueOf(foo - 1));
+                    text_quantity.setText(String.valueOf(foo));
 
                     text_prise.setText(String.valueOf(foo * prise));
                     Drawable drawable = image.getDrawable();
